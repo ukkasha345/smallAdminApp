@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    /* position: absolute; */
+}
+.contact{
+    margin-left: 200px;
+    margin-top: -21px;
+}
+.heading-cotact{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #04AA6D;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+form{
+    margin-top: 15%;
+}
+.cntct-btn{
+    width: 240px;
+    background-color: aquamarine;
+}
+.cntct-btn:hover{
+    background-color: #04AA6D;
+}

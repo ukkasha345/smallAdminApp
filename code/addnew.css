@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.addnew{
+    margin-left: 200px;
+    margin-top: -21px;
+}
+.heading-userpage{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #04AA6D;
+}
+form{
+    width: 50%;
+    margin: 5% 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: center; */ 
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+label:hover{
+    font-size: large;
+}
+.submit-btn{
+    background-color: aquamarine;
+    width: 50%;
+    margin-left: 30%;
+    /* border-radius: 15%   !important; */
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #019c76;
+}
